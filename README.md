@@ -1,4 +1,4 @@
-#Tree Search Optimazaion
+# Tree Search Optimazaion
 
 In corporate DFS, BFS, uniformed-cost and A* Tree search algorithms and improved the overall run time for searches 
 with heuristics by around 50% to 60% by changing the heuristics.
