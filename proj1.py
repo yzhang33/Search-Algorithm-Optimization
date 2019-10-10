@@ -1,9 +1,3 @@
-"""
-I pledge on my honor that I have not given or received
-any unauthorized assistance on this project.
-Youming Zhang
-"""
-
 
 import racetrack as rt
 import math

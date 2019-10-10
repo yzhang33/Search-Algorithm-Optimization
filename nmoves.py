@@ -1,8 +1,4 @@
 """
-File: nmoves.py
-Author: Dana Nau <nau@cs.umd.edu>
-Last updated: Sept 5, 2019
-
 This file contains a Racetrack heuristic function h_nmoves(state,fline,walls). 
 It returns the number of moves that would be needed to reach the finish line
 if there were no walls. The arguments are:
@@ -13,11 +9,6 @@ if there were no walls. The arguments are:
       where (x1,y1) and (x2,y2) are the two endpoints, and it should be either
       either vertical (x1 == x2) or horizontal (y1 == y2).
    - walls is a list of walls, each wall having the form ((x1,y1), (x2,y2)).
-   
-Unlike the heuristic functions in heuristic.py, h_nmoves is admissible. However,
-it demonstrates how admissibility can reduce efficiency. With h_nmoves, A* is
-guaranteed to find optimal solutions, but A* will generate many more nodes
-than it generates with the heuristic functions in heuristics.py.
 """
 
 import math

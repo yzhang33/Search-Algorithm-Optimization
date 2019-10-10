@@ -1,20 +1,3 @@
-"""
-File: make_random_probs.py
-Author: Dana Nau <nau@cs.umd.edu>
-Last updated: April 18, 2019 (modified to increase minimum distance between walls)
-
-Some code to make random racetrack problems. It doesn't do a very good job,
-and I'll look for a way to replace it with something better.
-
-The main program creates problems and prints them to standard output, so if you 
-want to put them in a file you should either cut-and-paste from the command-line 
-window or redirect standard output.
-
-Each randomly generated problem is on a square grid with some randomly generated
-obstacles, so they look pretty different from the ones in sample_probs.py. 
-They also are a bit flaky, e.g., sometimes the finish line will partially overlap
-some of the obstacles.
-"""
 
 import sys              # We need sys.readline
 import tdraw, turtle    # Code to use Python's "turtle drawing" package

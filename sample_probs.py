@@ -1,9 +1,5 @@
 """
-File: sample_probs.py
-Author: Dana Nau <nau@cs.umd.edu>
-Last updated: Aug 30, 2019
-
-These are some made-by-hand test problems for Project 1
+These are some made-by-hand test problems
 
 Here's a list of all the test problems in this file,
 roughly in increasing order of difficulty:
@@ -16,18 +12,6 @@ Each test problem is a list of the form [p0, finish, walls], where
    p0 is the starting point;
    finish is the finish line;
    walls is a list of walls.
-
-If you want to see what one of the problems (say, rect20a) looks like,
-you can do it like this:
-
-   import sample_probs, tdraw
-   tdraw.draw_problem(sample_probs.rect20a, title='rect20a')
-
-If you have a heuristic named h1 in a file named heuristics.py, and you
-want GBF to use it on rect20a, you can do it like this:
-
-   import racetrack, sample_probs, heuristics
-   racetrack.main(sample_probs.rect20a, 'gbf', heuristics.h1, 1, 1, 'rect20a')
 """
 
 # A small rectangular region, with no obstacles in the way. There are four

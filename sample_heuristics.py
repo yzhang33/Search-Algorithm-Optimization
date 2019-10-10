@@ -1,8 +1,4 @@
 """
-File: heuristics.py
-Author: Dana Nau <nau@cs.umd.edu>
-Last updated: Sept 5, 2019
-
 This file contains three heuristic functions for the Racetrack domain:
 - h_edist returns the Euclidean distance to the goal, ignoring walls;
 - h_esdist modifies h_edist to include an estimate of how long it will take to stop;
@@ -15,9 +11,6 @@ This file contains three heuristic functions for the Racetrack domain:
       where (x1,y1) and (x2,y2) are the two endpoints, and it should be either
       either vertical (x1 == x2) or horizontal (y1 == y2).
    - walls is a list of walls, each wall having the form ((x1,y1), (x2,y2))
-
-None of the above heuristic functions is admissible. There's an admissible one in
-the file nmoves.py, but (as explained in that file) I don't recommend using it.
 """
 
 import racetrack,math

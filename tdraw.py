@@ -1,8 +1,4 @@
 """
-File: tdraw.py
-Author: Dana Nau <nau@cs.umd.edu>
-Last updated: Aug 30, 2019
-
 A drawing module for the racetrack domain. The main programs are:
 
  - draw_problem((s0, finish_line, walls), grid=True, title=''):

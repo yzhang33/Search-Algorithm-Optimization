@@ -1,8 +1,4 @@
 """
-File: fsearch.py
-Author: Dana Nau <nau@cs.umd.edu>
-Last updated: Sept 5, 2019
-
 This file provides a Python implementation of the "Graph-Search-Redo" algorithm.
 For information on how to use it, see the docstring for fsearch.main.
 """

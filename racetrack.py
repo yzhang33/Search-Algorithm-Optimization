@@ -1,18 +1,3 @@
-"""
-File: racetrack.py
-Author: Dana Nau <nau@cs.umd.edu>
-Last updated: Sept 26, 2019
-
-NOTE: The purpose of this new version of racetrack.py is to fix a problem that 
-made the timing tests inaccurate. It's incompatible with the old version of
-run_tests.bash. You'll either need to use the new version, or else change the
-old one as described below.
-
-If you already have a customized copy of run_tests.bash, here's how you can modify
-it to work with the new version of racetrack.py. In your bash file, look for every
-occurrence of "$heur_file.$heur" (without the quotation marks, of course), and
-replace it with "$heur_file.$heur, $heur_file" (again without the quotation marks).               
-"""
 
 import tdraw, turtle    # Code to use Python's "turtle drawing" package
 import math, sys
